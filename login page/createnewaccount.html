@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create new account</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="website icon" type="png" href="/login page/rail.png">
+</head>
+<body>
+    <section class="section wrapper-section">
+        <div class="container wrapper-column">
+           <div class="wrapper-header">
+              <h1 class="title" style="color: white;">Start exploring the world</h1>
+              <p style="color: white;">Start your Journey with us and explore the world.</p>
+           </div>
+           <form name="register" class="form" onsubmit="return validateform()"; return validateForm(this);">
+              <div class="form-control">
+                 <input type="text" name="firstname" placeholder="firstname" id="firstname" class="form-input">
+                 <label for="firstname" class="form-label">First name</label>
+                 <span class="form-alert">First name is required!</span>
+                 <span class="form-check">
+                    <i class="ion-success ion-md-checkmark-circle"></i>
+                    <i class="ion-invalid ion-md-information-circle"></i>
+                 </span>
+              </div>
+              <div class="form-control">
+                 <input type="text" name="lastname" placeholder="lastname" id="lastname" class="form-input">
+                 <label for="lastname" class="form-label">Last name</label>
+                 <span class="form-alert">Last name is required!</span>
+                 <span class="form-check">
+                    <i class="ion-success ion-md-checkmark-circle"></i>
+                    <i class="ion-invalid ion-md-information-circle"></i>
+                 </span>
+              </div>
+              <div class="form-control">
+                 <input type="email" name="email" placeholder="email" id="email" class="form-input">
+                 <label for="email" class="form-label">Email Address</label>
+                 <span class="form-alert">Email is required!</span>
+                 <span class="form-check">
+                    <i class="ion-success ion-md-checkmark-circle"></i>
+                    <i class="ion-invalid ion-md-information-circle"></i>
+                 </span>
+              </div>
+              <div class="form-control">
+                 <input type="password" name="password" placeholder="password" id="password" class="form-input">
+                 <label for="password" class="form-label">Password</label>
+                 <span class="form-alert">Password is required!</span>
+                 <span class="form-check">
+                    <i class="ion-success ion-md-checkmark-circle"></i>
+                    <i class="ion-invalid ion-md-information-circle"></i>
+                 </span>
+              </div>
+              <div class="form-control">
+                 <button type="submit" class="btn btn-darken">Create New Account</button>
+              </div>
+           </form>
+        </div>
+     </section>
+</body>
+</html>
